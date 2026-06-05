@@ -1,14 +1,13 @@
 fetch("productos.json")
-.then(res => res.json())
+.then(response => response.json())
 .then(productos => {
 
 const menu = document.getElementById("menu");
 
 productos.forEach(producto => {
 
-const pedido =
-encodeURIComponent(
-`Hola, quiero pedir:\n${producto.nombre}`
+const pedido = encodeURIComponent(
+`Hola, quiero pedir ${producto.nombre}`
 );
 
 menu.innerHTML += `
@@ -21,15 +20,22 @@ menu.innerHTML += `
 
 <h2>${producto.nombre}</h2>
 
-<p>${producto.descripcion}</p>
+<p class="descripcion">
 
-<p class="precio">
-$${producto.precio}
+${producto.descripcion}
+
 </p>
 
-<a class="btn"
+<p class="precio">
+
+$${producto.precio}
+
+</p>
+
+<a
+class="btn"
 href="https://wa.me/526681234567?text=${pedido}">
-Pedir por WhatsApp
+Ordenar Ahora
 </a>
 
 </div>

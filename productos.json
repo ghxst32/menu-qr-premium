@@ -1,23 +1,20 @@
 [
-  {
-    "nombre": "Taco de Asada",
-    "precio": 35,
-    "categoria": "Tacos",
-    "imagen": "images/taco.jpg",
-    "descripcion": "Taco de carne asada con guacamole."
-  },
-  {
-    "nombre": "Coca Cola",
-    "precio": 30,
-    "categoria": "Bebidas",
-    "imagen": "images/coca.jpg",
-    "descripcion": "Refresco de 600 ml."
-  },
-  {
-    "nombre": "Papas a la Francesa",
-    "precio": 70,
-    "categoria": "Extras",
-    "imagen": "images/papas.jpg",
-    "descripcion": "Orden grande."
-  }
+{
+"nombre":"Hamburguesa Sencilla",
+"precio":"99",
+"descripcion":"Carne, queso, lechuga, jitomate y aderezos.",
+"imagen":"images/sencilla.jpg"
+},
+{
+"nombre":"Hamburguesa Doble",
+"precio":"139",
+"descripcion":"Doble carne premium y doble queso.",
+"imagen":"images/doble.jpg"
+},
+{
+"nombre":"Hamburguesa Triple",
+"precio":"179",
+"descripcion":"Triple carne para verdaderos hambrientos.",
+"imagen":"images/triple.jpg"
+}
 ]
