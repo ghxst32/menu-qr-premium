@@ -1,0 +1,23 @@
+[
+  {
+    "nombre": "Taco de Asada",
+    "precio": 35,
+    "categoria": "Tacos",
+    "imagen": "images/taco.jpg",
+    "descripcion": "Taco de carne asada con guacamole."
+  },
+  {
+    "nombre": "Coca Cola",
+    "precio": 30,
+    "categoria": "Bebidas",
+    "imagen": "images/coca.jpg",
+    "descripcion": "Refresco de 600 ml."
+  },
+  {
+    "nombre": "Papas a la Francesa",
+    "precio": 70,
+    "categoria": "Extras",
+    "imagen": "images/papas.jpg",
+    "descripcion": "Orden grande."
+  }
+]
